@@ -1,0 +1,26 @@
+
+.single-protfolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #ddd;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.protfolio-image{
+    width: 80px;
+}
+.protfolio-icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+.edit-protfolio{
+    color: rgb(4, 128, 4);
+    margin-right: 15px;
+    
+}
+.delete-protfolio{
+    color: rgb(236, 35, 35);
+}

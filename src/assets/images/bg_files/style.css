@@ -1,0 +1,1375 @@
+.btn-1 {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 9
+}
+
+.btn-1:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 300px;
+    height: 300px;
+    line-height: 20em;
+    left: 50%;
+    margin-left: -150px;
+    text-align: center;
+    -webkit-transition: -webkit-box-shadow 0.5s ease-out;
+    transition: -webkit-box-shadow 0.5s ease-out;
+    -o-transition: box-shadow 0.5s ease-out;
+    transition: box-shadow 0.5s ease-out;
+    transition: box-shadow 0.5s ease-out, -webkit-box-shadow 0.5s ease-out;
+    z-index: -1
+}
+
+.btn-1:hover {
+    color: #fff
+}
+
+.btn-1:hover:before {
+    -webkit-box-shadow: inset 0 0 0 10em #00aeef;
+    box-shadow: inset 0 0 0 10em #00aeef
+}
+
+.btn-1.btn-white:hover {
+    color: #000
+}
+
+.btn-1.btn-white:hover:before {
+    -webkit-box-shadow: inset 0 0 0 10em #fff;
+    box-shadow: inset 0 0 0 10em #fff
+}
+
+.container,
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.col-sm-3 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+@media (min-width:640px) {
+    .col-sm-3 {
+        width: 25%;
+        float: left;
+    }
+
+}
+.container:after,
+.container:before {
+    content: " ";
+    display: table
+}
+
+.container-fluid:after,
+.container-fluid:before {
+    content: " ";
+    display: table
+}
+
+.row:after,
+.row:before {
+    content: " ";
+    display: table
+}
+
+.container-fluid:after,
+.container:after,
+.row:after {
+    clear: both
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.pull-right {
+    float: right!important
+}
+
+.pull-left {
+    float: left!important
+}
+
+.hide {
+    display: none!important
+}
+
+.show {
+    display: block!important
+}
+
+.invisible {
+    visibility: hidden
+}
+
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0
+}
+
+
+
+@font-face {
+    font-family: "Ionicons";
+    src: url("../fonts/ionicons.eot");
+    src: url("../fonts/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"), url("../fonts/ionicons.ttf") format("truetype"), url("../fonts/ionicons.woff?v=2.0.0") format("woff"), url("../fonts/ionicons.svg") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+.ion,
+.ion-android-add:before,
+.ion-android-arrow-dropdown:before,
+.ion-android-arrow-dropright-circle:before,
+.ion-android-arrow-dropright:before,
+.ion-android-attach:before,
+.ion-android-home:before,
+.ion-android-mail:before,
+.ion-android-open:before,
+.ion-arrow-down-c:before,
+.ion-arrow-up-c:before,
+.ion-chatbubble:before,
+.ion-clipboard:before,
+.ion-close-round:before,
+.ion-close:before,
+.ion-earth:before,
+.ion-grid:before,
+.ion-home:before,
+.ion-ios-arrow-down:before,
+.ion-ios-arrow-left:before,
+.ion-ios-arrow-right:before,
+.ion-ios-chatboxes-outline:before,
+.ion-ios-clock-outline:before,
+.ion-ios-close-outline:before,
+.ion-ios-email-outline:before,
+.ion-ios-location-outline:before,
+.ion-ios-location:before,
+.ion-ios-search-strong:before,
+.ion-ios-telephone:before,
+.ion-mouse:before,
+.ion-navicon-round:before,
+.ion-social-facebook:before,
+.ion-social-googleplus:before,
+.ion-social-linkedin:before,
+.ion-social-skype:before,
+.ion-social-twitter:before,
+.ion-trophy:before,
+.ionicons {
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.ion-alert:before {
+    content: "\f101"
+}
+
+.ion-navicon-round:before {
+    content: "\f20d"
+}
+
+.ion-grid:before {
+    content: "\f13f"
+}
+
+.ion-trophy:before {
+    content: "\f356"
+}
+
+.ion-earth:before {
+    content: "\f276"
+}
+
+.ion-clipboard:before {
+    content: "\f127"
+}
+
+.ion-ios-location:before {
+    content: "\f456"
+}
+
+.ion-ios-location-outline:before {
+    content: "\f455"
+}
+
+.ion-android-arrow-dropright-circle:before {
+    content: "\f362"
+}
+
+.ion-social-skype:before {
+    content: "\f23f"
+}
+
+.ion-ios-email-outline:before {
+    content: "\f422"
+}
+
+.ion-ios-telephone:before {
+    content: "\f4b9"
+}
+
+.ion-social-linkedin:before {
+    content: "\f239"
+}
+
+.ion-social-twitter:before {
+    content: "\f243"
+}
+
+.ion-social-facebook:before {
+    content: "\f231"
+}
+
+.ion-social-googleplus:before {
+    content: "\f235"
+}
+
+.ion-ios-location:before {
+    content: "\f456"
+}
+
+.ion-ios-close-outline:before {
+    content: "\f405"
+}
+
+.ion-close:before {
+    content: "\f12a"
+}
+
+.ion-ios-person:before {
+    content: "\f47e"
+}
+
+.ion-ios-chatboxes:before {
+    content: "\f3fa"
+}
+
+.ion-email:before {
+    content: "\f132"
+}
+
+.ion-android-mail:before {
+    content: "\f2eb"
+}
+
+.ion-android-add:before {
+    content: "\f2c7"
+}
+
+.ion-android-arrow-dropdown:before {
+    content: "\f35f"
+}
+
+.ion-android-arrow-dropright:before {
+    content: "\f363"
+}
+
+.ion-ios-arrow-left:before {
+    content: "\f3d2"
+}
+
+.ion-ios-arrow-right:before {
+    content: "\f3d3"
+}
+
+.ion-arrow-down-c:before {
+    content: "\f105"
+}
+
+.ion-arrow-up-c:before {
+    content: "\f10e"
+}
+
+.ion-ios-arrow-down:before {
+    content: "\f3d0"
+}
+
+.ion-ios-arrow-up:before {
+    content: "\f3d8"
+}
+
+.ion-ios-search-strong:before {
+    content: "\f4a4"
+}
+
+.ion-ios-clock-outline:before {
+    content: "\f402"
+}
+
+.ion-ios-chatboxes-outline:before {
+    content: "\f3f9"
+}
+
+.ion-android-attach:before {
+    content: "\f367"
+}
+
+.ion-chatbubble:before {
+    content: "\f11e"
+}
+
+.ion-close-round:before {
+    content: "\f129"
+}
+
+.ion-android-open:before {
+    content: "\f39c"
+}
+
+.ion-home:before {
+    content: "\f144"
+}
+
+.ion-android-home:before {
+    content: "\f38f"
+}
+
+.ion-mouse:before {
+    content: "\f340"
+}
+
+.ion-android-checkmark-circle:before {
+    content: "\f375"
+}
+
+
+.block {
+    height: 5em;
+    line-height: 5em;
+    width: 10em;
+    background: #464646;
+    color: #fdfdfd;
+    text-align: center;
+    margin: 1em auto;
+    text-shadow: 0 0 1px #333
+}
+
+.animatable {
+    visibility: hidden;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused
+}
+.animated {
+    visibility: visible;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -ms-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0)
+    }
+}
+
+@-moz-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(-20px)
+    }
+    to {
+        opacity: 1;
+        -moz-transform: translateY(0)
+    }
+}
+
+@-o-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -o-transform: translateY(-20px)
+    }
+    to {
+        opacity: 1;
+        -o-transform: translateY(0)
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    20% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    20% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    20% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    60% {
+        opacity: 0
+    }
+    20% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0)
+    }
+}
+
+@-moz-keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        -moz-transform: translateX(-100px)
+    }
+    to {
+        opacity: 1;
+        -moz-transform: translateX(0)
+    }
+}
+
+@-o-keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        -o-transform: translateX(-100px)
+    }
+    to {
+        opacity: 1;
+        -o-transform: translateX(0)
+    }
+}
+
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(100px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0)
+    }
+}
+
+@-moz-keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        -moz-transform: translateX(100px)
+    }
+    to {
+        opacity: 1;
+        -moz-transform: translateX(0)
+    }
+}
+
+@-o-keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        -o-transform: translateX(100px)
+    }
+    to {
+        opacity: 1;
+        -o-transform: translateX(0)
+    }
+}
+
+@keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(30px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0)
+    }
+}
+
+@-moz-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(30px)
+    }
+    to {
+        opacity: 1;
+        -moz-transform: translateY(0)
+    }
+}
+
+@-o-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -o-transform: translateY(30px)
+    }
+    to {
+        opacity: 1;
+        -o-transform: translateY(0)
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.3)
+    }
+    50% {
+        -webkit-transform: scale(1.05)
+    }
+    70% {
+        -webkit-transform: scale(0.9)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1)
+    }
+}
+
+@-moz-keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(0.3)
+    }
+    50% {
+        -moz-transform: scale(1.05)
+    }
+    70% {
+        -moz-transform: scale(0.9)
+    }
+    to {
+        opacity: 1;
+        -moz-transform: scale(1)
+    }
+}
+
+@-o-keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -o-transform: scale(0.3)
+    }
+    50% {
+        -o-transform: scale(1.05)
+    }
+    70% {
+        -o-transform: scale(0.9)
+    }
+    to {
+        opacity: 1;
+        -o-transform: scale(1)
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.3);
+        transform: scale(0.3)
+    }
+    50% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05)
+    }
+    70% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes moveUp {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(40px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0)
+    }
+}
+
+@-moz-keyframes moveUp {
+    0% {
+        opacity: 1;
+        -moz-transform: translateY(40px)
+    }
+    to {
+        opacity: 1;
+        -moz-transform: translateY(0)
+    }
+}
+
+@-o-keyframes moveUp {
+    0% {
+        opacity: 1;
+        -o-transform: translateY(40px)
+    }
+    to {
+        opacity: 1;
+        -o-transform: translateY(0)
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes fadeBgColor {
+    0% {
+        background: none
+    }
+    70% {
+        background: none
+    }
+    to {
+        background: #464646
+    }
+}
+
+@-o-keyframes fadeBgColor {
+    0% {
+        background: none
+    }
+    70% {
+        background: none
+    }
+    to {
+        background: #464646
+    }
+}
+
+@keyframes fadeBgColor {
+    0% {
+        background: none
+    }
+    70% {
+        background: none
+    }
+    to {
+        background: #464646
+    }
+}
+
+.animated.animationDelay {
+    animation-delay: .4s;
+    -webkit-animation-delay: .4s
+}
+
+.animated.animationDelayMed {
+    animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s
+}
+
+.animated.animationDelayLong {
+    animation-delay: 1.6s;
+    -webkit-animation-delay: 1.6s
+}
+
+.animated.fadeBgColor {
+    -webkit-animation-name: fadeBgColor;
+    -moz-animation-name: fadeBgColor;
+    -o-animation-name: fadeBgColor;
+    animation-name: fadeBgColor
+}
+
+.animated.bounceIn {
+    -webkit-animation-name: bounceIn;
+    -moz-animation-name: bounceIn;
+    -o-animation-name: bounceIn;
+    animation-name: bounceIn
+}
+
+.animated.bounceInRight {
+    -webkit-animation-name: bounceInRight;
+    -moz-animation-name: bounceInRight;
+    -o-animation-name: bounceInRight;
+    animation-name: bounceInRight
+}
+
+.animated.bounceInLeft {
+    -webkit-animation-name: bounceInLeft;
+    -moz-animation-name: bounceInLeft;
+    -o-animation-name: bounceInLeft;
+    animation-name: bounceInLeft
+}
+
+.animated.fadeIn {
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    animation-name: fadeIn
+}
+
+.animated.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown
+}
+
+.animated.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    -moz-animation-name: fadeInUp;
+    -o-animation-name: fadeInUp;
+    animation-name: fadeInUp
+}
+
+.animated.moveUp {
+    -webkit-animation-name: moveUp;
+    -moz-animation-name: moveUp;
+    -o-animation-name: moveUp;
+    animation-name: moveUp
+}
+
+.imghvr-hinge-up img {
+    -webkit-transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    -ms-transform-origin: 50% 0%;
+    -o-transform-origin: 50% 0%;
+    transform-origin: 50% 0%
+}
+
+.imghvr-hinge-up figcaption {
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+    -o-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    transform-origin: 50% 100%
+}
+
+.imghvr-hinge-up:hover>img {
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    -ms-transform: rotateX(-90deg);
+    -o-transform: rotateX(-90deg);
+    transform: rotateX(-90deg)
+}
+
+.imghvr-hinge-up:hover figcaption {
+    -webkit-transform: rotateX(0);
+    -moz-transform: rotateX(0);
+    -ms-transform: rotateX(0);
+    -o-transform: rotateX(0);
+    transform: rotateX(0)
+}
+
+
+a {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+
+.btn-1 {
+    display: inline-block;
+    height: 44px;
+    line-height: 40px;
+    padding: 0 20px;
+    border-radius: 25px;
+    color: #00aeef;
+    font-size: 15px;
+    border: 2px solid #00aeef;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400
+}
+
+.btn-1:hover {
+    border: 2px solid transparent
+}
+
+.btn-1.btn-white {
+    color: #fff;
+    border: 2px solid #fff
+}
+
+
+.section-service h5 {
+    font-size: 24px;
+    color: #2e3235;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 5px
+}
+
+.section-service .container {
+    position: relative;
+    z-index: 1;
+    overflow: hidden
+}
+
+.service-expand {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    overflow: hidden
+}
+
+.service-expand.open {
+    width: 200%;
+    height: 200%;
+    padding: 20px;
+    z-index: 99
+}
+
+.service-expand.open .service-tilte {
+    position: relative;
+    top: auto;
+    text-align: left;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    margin-bottom: 5px
+}
+
+.service-expand.open .icon {
+    margin: 0;
+    float: left;
+    -webkit-transform: translateY(0px)!important;
+    -ms-transform: translateY(0px)!important;
+    transform: translateY(0px)!important
+}
+
+.service-expand.open h4 {
+    float: left;
+    margin-left: 15px;
+    padding-top: 15px
+}
+
+.service-expand.open .more-cnt {
+    display: block;
+    width: 100%;
+    overflow: visible;
+    margin-top: 25px
+}
+
+.service-expand.open .close {
+    display: block
+}
+
+.service-expand .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 99;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    -webkit-transition: all 0.6s ease-out 0s;
+    -moz-transition: all 0.6s ease-out 0s;
+    -ms-transition: all 0.6s ease-out 0s;
+    -o-transition: all 0.6s ease-out 0s;
+    transition: all 0.6s ease-out 0s
+}
+
+.service-expand .close:hover {
+    color: #fff
+}
+
+.service-expand h5,
+.service-expand p {
+    font-size: 20px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    display: none
+}
+
+.service-expand ul a,
+.service-expand ul span {
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 10px;
+    display: block;
+    cursor: auto;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s
+}
+
+.service-expand ul a:hover,
+.service-expand ul span:hover {
+    -webkit-transform: translatex(5px);
+    -ms-transform: translatex(5px);
+    transform: translatex(5px)
+}
+
+.service-expand .more-cnt {
+    display: none;
+    width: 0;
+    overflow: hidden
+}
+
+.btn-01 {
+    clear: both;
+    font-size: 16px;
+    color: #9e9797;
+    margin-top: 13px
+}
+
+.btn-01 i {
+    margin-left: 10px;
+    color: #00aeef;
+    font-size: 20px;
+    position: relative;
+    top: 3px
+}
+
+.btn-01:hover {
+    color: #00aeef
+}
+
+.submit-btn:hover {
+    background: #e73535
+}
+
+.hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-box-shadow: 0 0 1px transparent;
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    -webkit-transition-property: -webkit-box-shadow, -webkit-transform;
+    transition-property: -webkit-box-shadow, -webkit-transform;
+    -o-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform, -webkit-box-shadow, -webkit-transform
+}
+
+.hvr-grow-shadow:active,
+.hvr-grow-shadow:focus,
+.hvr-grow-shadow:hover {
+    -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.8);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05)
+}
+
+
+@-webkit-keyframes fadeInScale {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        opacity: 0
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+@keyframes fadeInScale {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        opacity: 0
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes dot-blink {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1
+    }
+    to {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        opacity: 0
+    }
+}
+
+@keyframes dot-blink {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1
+    }
+    to {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        opacity: 0
+    }
+}
+
+@media only screen and (min-width:480px) {
+
+    .home-services .b-3 .service-expand {
+        background-size: cover
+    }
+    .service-expand.open {
+        padding: 35px
+    }
+    .service-expand h5,
+    .service-expand p {
+        display: block
+    }
+    .service-expand.service-expand.open .more-cnt {
+        margin-top: 0
+    }
+
+}
+
+@media only screen and (min-width:767px) {
+
+    .section-service {
+        padding: 60px 0
+    }
+    .section-service .acodie-cnt h5 {
+        font-size: 24px;
+        line-height: 50px
+    }
+    .home-services {
+        margin-top: 30px
+    }
+    .home-services .col-3 {
+        width: 25%
+    }
+    .home-services .box {
+        width: 100%;
+        background-size: cover;
+        -webkit-transition: all 0.3s ease-out 0s;
+        -moz-transition: all 0.3s ease-out 0s;
+        -ms-transition: all 0.3s ease-out 0s;
+        -o-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s
+    }
+    .home-services .box h4 {
+        -webkit-transition: all 0.3s ease-out 0s;
+        -moz-transition: all 0.3s ease-out 0s;
+        -ms-transition: all 0.3s ease-out 0s;
+        -o-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s
+    }
+    .home-services .box .icon {
+        -webkit-transition: all 0.3s ease-out 0s;
+        -moz-transition: all 0.3s ease-out 0s;
+        -ms-transition: all 0.3s ease-out 0s;
+        -o-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s
+    }
+    .home-services .box:hover .icon {
+        -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        transform: translateY(-5px)
+    }
+    .home-services .b-3 {
+        background-size: cover;
+        background-position: 0
+    }
+    .home-services .b-3:before {
+        padding-top: 200%
+    }
+    .home-services .b-1 .service-expand {
+        top: auto;
+        right: auto;
+        left: 0;
+        bottom: 0
+    }
+    .home-services .b-3 .service-expand:hover {
+        height: 100%
+    }
+    .home-services .b-3 .service-expand:hover.open {
+        height: 100%;
+        width: 200%
+    }
+    .home-services .b-7 .service-expand {
+        top: auto;
+        right: 0;
+        bottom: 0
+    }
+    .home-services .b-6 .service-expand {
+        top: 0;
+        right: 0;
+        left: auto;
+        bottom: auto
+    }
+    .home-services .b-2 .service-expand {
+        left: auto;
+        right: 0;
+        bottom: auto;
+        top: 0
+    }
+    .service-expand:hover {
+        width: 200%;
+        height: 200%;
+        padding: 20px;
+        z-index: 99
+    }
+    .service-expand:hover .service-tilte {
+        position: relative;
+        top: auto;
+        text-align: left;
+        -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+        margin-bottom: 5px
+    }
+    .service-expand:hover .icon {
+        margin: 0;
+        float: left;
+        -webkit-transform: translateY(0px)!important;
+        -ms-transform: translateY(0px)!important;
+        transform: translateY(0px)!important
+    }
+    .service-expand:hover h4 {
+        float: left;
+        margin-left: 15px;
+        padding-top: 15px
+    }
+    .service-expand:hover .more-cnt {
+        display: block;
+        width: 100%;
+        overflow: visible
+    }
+    .service-detail {
+        width: 0;
+        left: 15px;
+        top: 30px;
+        position: absolute
+    }
+    .service-detail.open {
+        height: calc(100% - 60px);
+        width: 50%
+    }
+    .service-detail.open .box-outer {
+        padding: 60px
+    }
+    .service-detail:before {
+        display: none
+    }
+    .list-02 h6 {
+        font-size: 18px;
+        margin-bottom: 5px
+    }
+    .list-02 p {
+        font-size: 14px
+    }
+    .section-service .acodez-won {
+        overflow: visible
+    }
+}
+
+@media only screen and (min-width:1024px) {
+
+    .service {
+        min-height: 500px;
+        padding: 80px 0
+    }
+
+    .service-expand:hover {
+        padding: 60px
+    }
+    .service-expand.open {
+        padding: 60px
+    }
+    .service-expand h5 {
+        font-size: 25px;
+        margin: 25px 0 20px 0
+    }
+    .service-expand:hover h4 {
+        font-size: 30px
+    }
+    .home-services h4 {
+        font-size: 24px
+    }
+    .home-acodie {
+        float: right;
+        margin-top: 35%
+    }
+ 
+    .section-service .container {
+        overflow: visible;
+        margin-bottom: 30px
+    }
+
+}
+
+@media only screen and (min-width:1250px) {
+
+    .service-expand {
+        overflow: hidden
+    }
+    .service-expand p {
+        width: 470px
+    }
+}

@@ -1,0 +1,62 @@
+.main-begin{
+    padding:0px 0px 60px 0px;
+    position: relative;
+ 
+}
+.left-begin-img{
+    position: absolute;
+    background-image: url('../../../assets/images/about_left-im1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 0;
+    top: 0;
+    width: 55%;
+    height: 100%;
+    z-index: -1;
+}
+.second-begin{
+    margin: 0px 100px 20px 100px;
+    padding-top: 60px;
+}
+
+.left-begin h3{
+    position: relative;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+    padding: 45px 0px 0px 45px;
+    margin-top: 30px;
+  
+
+}
+
+.left-begin h3::after{
+     content: '';
+  position: absolute;
+   top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; 
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+
+
+.begin-h3{
+    font-size: 35px;
+    color: #262525;
+    font-weight: 300;
+    margin: 0px 0px 15px;
+}
+
+.begin-p{
+    font-size: 17px;
+    color: black;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0px 0px 15px;
+    /* text-align: justify; */
+    width:95%;
+}

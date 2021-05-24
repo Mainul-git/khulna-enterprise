@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2018, 12:23:55 PM
+    Author     : Rifat
+*/
+a:hover {
+    text-decoration: none;}
+
+.bg-white{
+    background-color: #ffffff;
+}
+.bg-grey{
+    background-color: #f3f3f3;
+}
+.bg-6{
+    background-image: url(../img/bg-6.jpg); 
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.toma-section{
+}
+.assure-section {
+    
+}
+
+.assure-section .assure-left h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+    padding: 45px 0px 0px 45px;
+    margin: 0px; }
+
+.assure-section .assure-right h2 {
+    font-size: 35px;
+    color: #262525;
+    font-weight: 300;
+    margin: 0px 0px 15px; }
+
+.assure-section .assure-right p {
+    font-size: 17px;
+    color: #8f8c8c;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0px 0px 15px;
+    text-align: justify; }
+
+
+.section-business h2 {
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #272727;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 50px; }
+
+.ul_outer {
+    width: 100%;
+    height: auto;
+    background: #f4f9f5;
+    border-radius: 3px;
+    border: 1px solid #F1F1F1;
+    overflow: hidden; }
+.ul_outer ul li {
+    display: block;
+    height: 60px; }
+.ul_outer ul li:hover {
+    background: #2E3192;
+    transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s; }
+.ul_outer ul li:hover a {
+    color: #fff; }
+.ul_outer ul li a {
+    line-height: 60px;
+    font-size: 16px;
+    color: #2E3192;
+    padding-left: 40px;
+    display: block;
+    text-transform: uppercase; }
+
+.ul_outer ul .active {
+    background: #2E3192; }
+
+.ul_outer ul .active a {
+    color: #fff;
+    display: block; }
+
+
+.help-widget {
+    width: 100%;
+    height: auto;
+    background: #f4f9f5;
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 3px;
+    border: 1px solid #F1F1F1; }
+.help-widget h4 {
+    font-size: 16px;
+    color: #252525;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee; }
+.help-widget p {
+    font-size: 14px;
+    color: #546e7a;
+    line-height: 30px;
+    padding-right: 30px; }
+.help-widget a {
+    clear: both;
+    color: #2E3192;
+    font-size: 14px;
+    border: 1px solid #2E3192;
+    border-radius: 50px;
+    display: block;
+    width: 115px;
+    text-align: center;
+    height: 38px;
+    line-height: 34px;
+    margin-top: 15px; }
+.help-widget a:hover {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #444;
+    transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s; }
+
+.main-content h3 {
+font-size: 20px;
+text-transform: uppercase;
+font-weight: 700;
+border-bottom: 1px solid #F1F1F1;
+padding-bottom: 20px;
+margin-bottom: 25px;
+color: #2b2b2b; }
+
+.main-content p {
+font-size: 17px;
+line-height: 24px;
+text-align: justify;
+color: #6c6c6c;
+margin-bottom: 30px; }
+
+.section-business.section_3{
+    background: #f7f7f7;
+}
+.owl-carousel .items h4{
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 3px 0;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    background: #2E3192;
+    transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+}
+
+.section-title h2{
+    font-size: 35px;
+    color: #262525;
+    font-weight: 300;
+    margin: 0px 0px 15px; 
+}
+
+.section_3 .viw_all {
+    display: table;
+    border: 1px solid #444;
+    padding: 12px 25px;
+    margin: auto;
+    clear: both;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    color: #373737;
+    letter-spacing: 3px; }
+    .section_3 .viw_all:hover {
+      border: 1px solid #2E3192;
+      color: #fff; }

@@ -1,0 +1,107 @@
+/*
+    *******************************
+            Concern Area CSS
+    ===============================
+*/
+.concern-area{
+  width: 100%;
+  height: auto;
+  background: #f7f7f7;
+  position: relative;
+  padding-bottom: 70px;
+  padding-top: 115px;
+}
+.concern-area h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 900;
+  margin: 0px 0px 50px;
+}
+
+.single-slider{
+  text-align: center;
+  position: relative;
+  width: 200px !important;
+  margin: 0 auto;
+  z-index: -1;
+}
+.single-slider img{
+  width: 100%;
+  height: 160px;
+  margin-bottom: 20px;
+}
+.single-slider h3{
+  border-bottom: 1px dotted #B7B7B7;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  font-size: 25px;
+}
+.owl-nav{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin: 15px;
+}
+.owl-prev span,
+.owl-next span{
+  font-size: 40px;
+  margin: 0 10px;
+}
+.modal-backdrop{
+  position: relative;
+}
+
+.modal{
+  width: 600px  !important;
+  height: auto;
+  z-index: 99999;
+}
+
+.custom-modal-box{
+  position:absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #ddd;
+  width: 620px !important;
+  z-index: 9999;
+}
+/* .modal-box::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+} */
+.custom-modal-title {
+  background: #F1F1F1;
+  padding: 10px 25px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.custom-modal--title h4{
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.custom-modal-title span{
+  font-size: 22px;
+  color: red;
+  font-weight: 600;
+  cursor: pointer;
+}
+.custom-modal-body p{
+  color: #707070 !important;
+  font-size: 15px !important;
+  padding: 0px 25px 20px;
+  margin-top: 0px !important;
+  line-height: 26px;
+  text-align: justify;
+}

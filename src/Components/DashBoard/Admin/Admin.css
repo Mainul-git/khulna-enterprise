@@ -1,0 +1,41 @@
+.admin-area p{
+    font-size: 20px;
+    font-weight: 700px;
+    color: rgb(97, 95, 95);
+    cursor: pointer;
+    transition: .5s;
+}
+.admin-area p:hover{
+    color: green;
+}
+.single-admin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #ddd;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.admin-pic{
+    width: 70px;
+    height: 70px;
+}
+.admin-name{
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.admin-name p{
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    cursor: default;
+}
+.admin-pic img{
+    background-color: #eee;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:50%;
+}

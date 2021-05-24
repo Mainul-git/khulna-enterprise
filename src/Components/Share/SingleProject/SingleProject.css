@@ -1,0 +1,119 @@
+
+  /*
+    *******************************
+            Project Area CSS
+    ===============================
+*/
+
+
+.project-area{
+    margin: 30px 0;
+}
+.project-heading{
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #272727;
+    text-align: center;
+    line-height: 50px;
+    margin: 50px 0;
+    
+}
+.single-project-wrap{
+    position: relative;
+    cursor: pointer;
+}
+.single-project-wrap img{
+    width: 100%;
+    height: 370px;
+    object-fit: fill;
+}
+.effect-bubba:hover {
+    background: #063059; 
+}
+  
+  .caption {
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  
+  .effect-bubba:hover img {
+    opacity: 0.1; }
+  
+  .effect-bubba .caption::before,
+  .effect-bubba .caption::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s; }
+  
+  .effect-bubba .caption::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1); }
+  
+  .effect-bubba .caption::after {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0); }
+  
+  .effect-bubba h2 {
+    margin-top: 0px !important;
+    padding-top: 42%;
+    padding-bottom: 40.5%;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0); }
+  
+  .effect-bubba .proj-cat {
+    bottom: 100px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    background: #2E3192;
+    opacity: 0.8;
+    padding: 5px 10px;
+    line-height: 28px;
+    width: 80%;
+    margin: 10%;
+    text-transform: capitalize; }
+  
+  .effect-bubba:hover .caption::before,
+  .effect-bubba:hover .caption::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  
+  .effect-bubba:hover h2,
+  .effect-bubba:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); 
+  }

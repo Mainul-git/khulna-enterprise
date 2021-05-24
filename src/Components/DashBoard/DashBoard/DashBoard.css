@@ -1,0 +1,42 @@
+.side-bar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.dashboard-logo p{
+    font-size: 22px;
+    font-weight: 700;
+    color: #2E3192;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.dashboard-logo p > span{
+    color: green;
+    font-weight: 400;
+}
+.dashboard-nav ul{
+    list-style: none;
+}
+.dashboard-nav ul li{
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: 8px;
+}
+.dashboard-nav ul li:hover{
+    color: #2E3192;
+}
+.log-out p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(138, 135, 135);
+    cursor: pointer;
+    text-decoration: underline;
+    transition: .5s;
+}
+.log-out p:hover{
+    color: #2E3192;
+}
